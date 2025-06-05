@@ -1,10 +1,12 @@
 :root {
     --primary-color: rgb(2, 8, 20); 
+    --primary-color-light: #23243a;
     --secondary-color: #1d041f;          
     --accent-color: #4d0420;             
     --dark-color: #0a0a1a;            
-    --light-color: #151530;              
+    --light-color: #23243a;              
     --text-color: #d6d6d6;             
+    --text-color-light: #f5f5fa;
 }
 
 * {
