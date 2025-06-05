@@ -55,12 +55,12 @@ const projetos = [
   {
     titulo: "Cão e Gato",
     descricao:
-      "Cão e Gato é um site institucional desenvolvido para uma clínica veterinária fictícia.",
+      "Cão e Gato é um site institucional desenvolvido para uma clínica veterinária fictícia, que apresenta seus serviços, contatos e informações de forma profissional, moderna e responsiva, transmitindo confiança e cuidado aos clientes.",
     imagem: "img/Landing Page Completa Pet Shop.png",
     link: "https://devwizardmarcos.github.io/ProjetoFinalPrataHTMLCSS/",
   },
   {
-    titulo: "Projetos python",
+    titulo: "Projetos Python Mini Cursos",
     descricao:
       "Este repositório reúne projetos e exemplos de código utilizados nas palestras e mini cursos de Python ministrados na Infinity School. Os exemplos abrangem desde códigos desenvolvidos por mim até contribuições dos próprios alunos, com o objetivo de demonstrar como o Python pode ser aplicado.",
     imagem: "img/projetos python.png",
