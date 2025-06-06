@@ -59,9 +59,15 @@
     color: var(--text-color) !important;
     background: var(--light-color) !important;
   }
+
+
+
+#desc-box{
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color) 80%) !important;
+    color: var(--text-color);
+}
 }
 
-/* Imagens responsivas e centralizadas */
 @media (max-width: 900px) {
   .about-img-container,
   .about-img,
