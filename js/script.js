@@ -32,9 +32,16 @@ aboutImg.parentElement.addEventListener('animationend', (e) => {
 
 const menuToggle = document.getElementById("menu-toggle");
 const navList = document.getElementById("nav-list");
+const closeMenu = document.getElementById("close-menu");
 
 menuToggle.addEventListener("click", () => {
-  navList.classList.toggle("active");
+  navList.classList.add("active");
+  closeMenu.classList.add("active");
+});
+
+closeMenu.addEventListener("click", () => {
+  navList.classList.remove("active");
+  closeMenu.classList.remove("active");
 });
 
 const projetos = [
