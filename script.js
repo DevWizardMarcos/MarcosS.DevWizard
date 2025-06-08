@@ -80,6 +80,18 @@ const projetos = [
     imagem: "img/ReactSavory.png",
     link: "https://github.com/DevWizardMarcos/ReactSavory-/tree/main",
   },
+ 
+
+   {
+    titulo: "Projetos Python",
+    descricao:
+      "Este repositório reúne projetos e exemplos de código desenvolvidos durante os cursos e mini cursos de Python ministrados na Infinity School. Os conteúdos variam entre projetos autorais e criações dos próprios alunos, elaborados ao longo das aulas com o objetivo de explorar, na prática, as aplicações do Python no dia a dia da programação.",
+    imagem: "img/new mage.png",
+    link: "https://github.com/DevWizardMarcos/ListaProjetosMonitorMs",
+  },
+ 
+ 
+ 
   // {
   //   titulo: "Projeto Cep",
   //   descricao:

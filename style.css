@@ -472,6 +472,12 @@ nav a:hover::after {
     min-height: 340px;
 }
 
+#galeiriaProjetos {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
 #skills {
   background: var(--light-color);
   padding: 4rem 0;
@@ -503,11 +509,17 @@ nav a:hover::after {
 
 .carousel-track {
   display: flex;
-  gap: 2rem;
-  animation: carousel-move 30s linear infinite;
-  will-change: transform;
-  min-width: 100%;
-  box-sizing: border-box;
+  width: max-content;
+  animation: scroll-carousel 30s linear infinite;
+}
+
+@keyframes scroll-carousel {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
 
 .carousel-track::-webkit-scrollbar {
@@ -662,6 +674,7 @@ nav a:hover::after {
 .project-image {
     height: 200px;
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center center;
 }
 
@@ -874,7 +887,7 @@ nav a:hover::after {
 }
 
 .course-card .inst {
-    color: #2d2a2a;
+    color: white;
     font-size: 0.95rem;
     margin-bottom: 8px;
 }
