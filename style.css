@@ -1,40 +1,15 @@
 :root {
-       --primary-color: rgb(2, 8, 20); 
-    --primary-color-light: #23243a;
-    --secondary-color: #1d041f;          
-    --accent-color: #860e3c;             
-    --dark-color: #0a0a1a;            
-    --light-color: #23243a;              
-    --text-color: #d6d6d6;             
-    --text-color-light: #686868;
+  --primary-color: #f5f5fa;            
+--primary-color-light: #e3e3ff;      
+--secondary-color: #e0f7fa;          
+--accent-color: #7c3aed ou #00bfae;  
+--dark-color: #d6d6d6;              
+--light-color: #fff;                
+--text-color: #23243a;              
+--text-color-light: #222 ou #333;    
 }
 
-/* Para telas menores (celular): modo mais claro */
-@media (max-width: 900px) {
-  :root {
-    --primary-color: #f5f5fa;
-    --primary-color-light: #e3e3ff;
-    --secondary-color: #e0f7fa;
-    --accent-color: #7c3aed; /* roxo claro para mobile */
-    --dark-color: #d6d6d6;
-    --light-color: #fff;
-    --text-color: #23243a;
-    --text-color-light: #333;
-  }
-}
-/* Para telas menores (celular): modo mais claro */
-@media (max-width: 900px) {
-  :root {
-    --primary-color: #f5f5fa;
-    --primary-color-light: #e3e3ff;
-    --secondary-color: #e0f7fa;
-    --accent-color: #00bfae;
-    --dark-color: #d6d6d6;
-    --light-color: #fff;
-    --text-color: #23243a;
-    --text-color-light: #333;
-  }
-}
+
 
 /* Modo claro mobile: textos escuros */
 @media (max-width: 900px) {
@@ -212,9 +187,7 @@ header {
     gap: 0.5rem;
 }
 
-.logo span {
-    color: #e3e3ff;
-}
+.logo span {color: #23243a;}
 
 .menu-toggle {
     display: none;
@@ -458,7 +431,7 @@ nav a:hover::after {
     max-width: 700px;
     margin: 0px auto 3rem;
     text-align: center;
-    color: rgb(176, 176, 208);
+    color: #23243a;
 }
 
 .projects-container {
@@ -807,6 +780,8 @@ nav a:hover::after {
     box-shadow: 0 0 15px #1a020afa;
     min-height: 80px;
     transition: background-color 0.3s;
+    color: #23243a;
+    background: linear-gradient(135deg, #85858d, var(--secondary-color));
   }
 
   @keyframes fadeInUp {
@@ -830,7 +805,7 @@ nav a:hover::after {
 }
 
 .section-subtitle {
-    color: #aaa;
+    color: #23243a;
     font-size: 1.1rem;
     margin-bottom: 50px;
 }
@@ -908,6 +883,7 @@ footer {
 
 .footer-content {
     max-width: 600px;
+    color: #23243a;
     margin: 0px auto;
 }
 
@@ -992,11 +968,12 @@ footer {
   text-align: center;
   text-decoration: none;
   transition: background 0.3s, color 0.3s;
+  color: #23243a;
 }
 
 .download-btn:hover {
   background: var(--accent-color);
-  color: #fff;
+  color: #23243a;
 }
 
 

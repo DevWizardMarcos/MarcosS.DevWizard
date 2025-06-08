@@ -48,44 +48,42 @@ const projetos = [
   {
     titulo: "DeadPool A Ultima Aventura",
     descricao:
-      "Landing page inspirada na HQ Deadpool: The End, com design em Bootstrap e paletas de cores do Deadpool e Wolverine.",
+      "Landing page temática, responsiva, feita com Bootstrap. Foco em design e experiência do usuário.",
     imagem: "img/deadpool.png",
     link: "https://devwizardmarcos.github.io/Deadpool-Ultima-Aventura-O-Fim-do-Jogo/",
   },
   {
     titulo: "Projeto H 🎃",
     descricao:
-      "🎃 HalloweenInit: Uma Experiência Assustadoramente Incrível! 👻 Bem-vindo ao HalloweenInit, , um projeto pensado para trazer o espírito do Halloween à vida, com transições assombrosas, áudios imersivos e interações mágicas baseadas em CSS e JavaScript!",
+      "Site interativo de Halloween. Animações, áudio e efeitos em CSS/JS para engajamento.",
     imagem: "img/porjeto h.png",
     link: "https://devwizardmarcos.github.io/Projeto-H/",
   },
   {
     titulo: "Cão e Gato",
     descricao:
-      "Cão e Gato é um site institucional desenvolvido para uma clínica veterinária fictícia, que apresenta seus serviços, contatos e informações de forma profissional, moderna e responsiva, transmitindo confiança e cuidado aos clientes.",
+      "Site institucional para clínica veterinária. Layout moderno, responsivo e profissional.",
     imagem: "img/Landing Page Completa Pet Shop.png",
     link: "https://devwizardmarcos.github.io/ProjetoFinalPrataHTMLCSS/",
   },
   {
     titulo: "Projetos Python Mini Cursos",
     descricao:
-      "Este repositório reúne projetos e exemplos de código utilizados nas palestras e mini cursos de Python ministrados na Infinity School. Os exemplos abrangem desde códigos desenvolvidos por mim até contribuições dos próprios alunos, com o objetivo de demonstrar como o Python pode ser aplicado.",
+      "Repositório com exemplos práticos de Python usados em treinamentos e workshops.",
     imagem: "img/projetos python.png",
     link: "https://github.com/DevWizardMarcos/Exemplos-de-Mini-Curso-Em-Python",
   },
   {
     titulo: "Projeto ReactSavory",
     descricao:
-      "Projeto em React com API de cardápio de restaurante. Inicia com uma tela de login animada e exibe os pratos em cards estilizados, simulando menus para uma experiência moderna e atrativa.",
+      "App React para cardápio digital. Login animado, cards de pratos e integração com API.",
     imagem: "img/ReactSavory.png",
     link: "https://github.com/DevWizardMarcos/ReactSavory-/tree/main",
   },
- 
-
-   {
+  {
     titulo: "Projetos Python",
     descricao:
-      "Este repositório reúne projetos e exemplos de código desenvolvidos durante os cursos e mini cursos de Python ministrados na Infinity School. Os conteúdos variam entre projetos autorais e criações dos próprios alunos, elaborados ao longo das aulas com o objetivo de explorar, na prática, as aplicações do Python no dia a dia da programação.",
+      "Projetos autorais e de alunos em Python. Foco em automação, lógica e aplicações reais.",
     imagem: "img/new mage.png",
     link: "https://github.com/DevWizardMarcos/ListaProjetosMonitorMs",
   },
