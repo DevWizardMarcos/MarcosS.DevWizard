@@ -49,14 +49,12 @@ const projetos = [
     titulo: "DeadPool A Ultima Aventura",
     descricao:
       "Landing page temática, responsiva, feita com Bootstrap. Foco em design e experiência do usuário.",
-      "Landing page temática, responsiva, feita com Bootstrap. Foco em design e experiência do usuário.",
     imagem: "img/deadpool.png",
     link: "https://devwizardmarcos.github.io/Deadpool-Ultima-Aventura-O-Fim-do-Jogo/",
   },
   {
     titulo: "Projeto H 🎃",
     descricao:
-      "Site interativo de Halloween. Animações, áudio e efeitos em CSS/JS para engajamento.",
       "Site interativo de Halloween. Animações, áudio e efeitos em CSS/JS para engajamento.",
     imagem: "img/porjeto h.png",
     link: "https://devwizardmarcos.github.io/Projeto-H/",
@@ -65,14 +63,12 @@ const projetos = [
     titulo: "Cão e Gato",
     descricao:
       "Site institucional para clínica veterinária. Layout moderno, responsivo e profissional.",
-      "Site institucional para clínica veterinária. Layout moderno, responsivo e profissional.",
     imagem: "img/Landing Page Completa Pet Shop.png",
     link: "https://devwizardmarcos.github.io/ProjetoFinalPrataHTMLCSS/",
   },
   {
     titulo: "Projetos Python Mini Cursos",
     descricao:
-      "Repositório com exemplos práticos de Python usados em treinamentos e workshops.",
       "Repositório com exemplos práticos de Python usados em treinamentos e workshops.",
     imagem: "img/projetos python.png",
     link: "https://github.com/DevWizardMarcos/Exemplos-de-Mini-Curso-Em-Python",
@@ -81,15 +77,13 @@ const projetos = [
     titulo: "Projeto ReactSavory",
     descricao:
       "App React para cardápio digital. Login animado, cards de pratos e integração com API.",
-      "App React para cardápio digital. Login animado, cards de pratos e integração com API.",
     imagem: "img/ReactSavory.png",
     link: "https://github.com/DevWizardMarcos/ReactSavory-/tree/main",
   },
-  {
+  
   {
     titulo: "Projetos Python",
     descricao:
-      "Projetos autorais e de alunos em Python. Foco em automação, lógica e aplicações reais.",
       "Projetos autorais e de alunos em Python. Foco em automação, lógica e aplicações reais.",
     imagem: "img/new mage.png",
     link: "https://github.com/DevWizardMarcos/ListaProjetosMonitorMs",
