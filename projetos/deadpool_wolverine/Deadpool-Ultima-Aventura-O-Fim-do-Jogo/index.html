@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A MORTE DE DEAD POOL </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+
+  <link rel="stylesheet" href="style.css">
+
+
+  <!-- Navbar -->
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a id="deadpool-adventure" class="nav-link active" aria-current="page" href="#">Deadpool - A Última Aventura
+        <img src="Deadpool-Logo.png" alt="Deadpool" style="height: 50px; margin-right: 8px;">
+
+      </a>
+    </li>
+    <li class="nav-item dropdown"> <audio id="my-audio" src="song.m4a"></audio>
+
+      <a id="activate-music" class="nav-link dropdown-toggle" href="#" role="button" aria-expanded="false">Activar</a>
+
+      <script>
+
+        var audio = document.getElementById('my-audio');
+        var link = document.getElementById('activate-music');
+        var video = document.querySelector('video');
+
+        // Adiciona o ouvinte de evento de clique ao link
+        link.addEventListener('click', function (event) {
+          event.preventDefault();
+
+
+          if (audio.paused) {
+            audio.play().catch(function (error) {
+              console.error('Erro ao tentar reproduzir o áudio:', error);
+            });
+            link.classList.add('playing');
+            link.textContent = 'Parar';
+          } else {
+            audio.pause();
+            link.classList.remove('playing');
+            link.textContent = 'Activar';
+          }
+        });
+
+        video.addEventListener('play', function () {
+          if (!audio.paused) {
+            audio.pause();
+            link.classList.remove('playing');
+            link.textContent = 'Activar';
+          }
+        });
+      </script>
+    </li>
+  </ul>
+
+  <!-- Hero Section -->
+  <header class="bg-dark text-white text-center py-5">
+    <div class="container">
+    </div>
+  </header>
+
+
+
+  <!-- About Section -->
+  <section class="primeirasc">
+    <section id="about" class="py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 mb-4">
+            <img src="Banner0.jpg" alt="Deadpool" class="img-fluid rounded">
+          </div>
+          <div class="col-md-6 mb-4">
+            <h2>Pacto com Mephisto: Entre Imortalidade e Amor Paternal</h2>
+            <p> Deadpool, em um momento de desespero, se encontra dividido entre sua vontade de não morrer e a de não
+              perder sua filha, Ellie. Incapaz de aceitar a ideia de viver para vê-la partir, ele faz um pacto com
+              Mephisto, o senhor do inferno. Mephisto, conhecendo bem a ligação entre Deadpool e Ellie, aposta sua alma
+              que Deadpool não conseguirá matar sua própria filha, mesmo que isso possa trazer alívio ao seu sofrimento.
+              O dilema se desenrola com Deadpool, sempre irreverente e sarcástico, enfrentando uma decisão profundamente
+              dolorosa: encontrar uma forma de destruir a própria morte sem sacrificar aqueles que ama.
+          </div>
+
+        </div>
+
+    </section>
+  </section>
+
+
+  <section class="segundasc">
+
+
+    <section id="about" class="py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 mb-4">
+            <h2> Deadpool Chuta o Balde e Entrega a Manopla</h2>
+            <p> Deadpool entrega a Manopla do Infinito para Franklin Richards em um momento onde ele "chuta o balde" e
+              decide abandonar toda a responsabilidade que veio com o poder que a Manopla oferece. Ele basicamente
+              desiste de tentar resolver seus problemas com esse tipo de poder, mostrando que ele prefere deixar isso
+              para outra pessoa, alguém que ele acredita que pode lidar melhor com a situação.
+              Deadpool, cansado e desiludido, entrega a Manopla ao Franklin como um gesto de desistência, deixando claro
+              que ele não quer mais lidar com esse fardo. Ele confia em Franklin, não porque vê nele uma figura
+              paternal, mas porque Deadpool simplesmente quer se livrar desse problema e das complicações que isso traz
+              para sua vida já complicada.</p>
+          </div>
+          <div class="col-md-6 mb-4">
+            <img src="Banner1.jpg" alt="Deadpool" class="img-fluid rounded">
+          </div>
+        </div>
+
+    </section>
+  </section>
+
+  </div>
+  </section>
+
+
+
+  <!-- About Section -->
+  <section class="primeirasc">
+    <section id="about" class="py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 mb-4">
+            <img src="banner6.jpg" alt="Deadpool" class="img-fluid rounded">
+          </div>
+          <div class="col-md-6 mb-4">
+            <h2> A Filha Entre Dois Deadpools e a Morte</h2>
+            <p> Na trama, Deadpool se encontra em uma situação inesperada quando um Deadpool meca surge para enfrentá-lo
+              em uma batalha épica. O robô, enviado como parte de um plano complexo, é um reflexo distorcido do próprio
+              Mercenário Tagarela. Enquanto a luta entre os dois Deadpools se desenrola, Ellie Wilson, filha de
+              Deadpool, se vê no meio desse conflito. Ela não só precisa impedir seu pai de matar a própria morte, como
+              também de confrontar essa nova ameaça. Ellie, com sua determinação e amor paternal, se torna a chave para
+              resolver esse impasse entre o destino, a tecnologia e o desejo de sobreviver a todo custo.
+            </p>
+          </div>
+
+        </div>
+
+    </section>
+  </section>
+
+
+
+
+
+
+
+  <section class="segundasc">
+
+
+    <section id="about" class="py-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 mb-4">
+            <h2> Deadpool vs Mecha Deadpool</h2>
+            <p> A batalha entre Deadpool e sua contraparte robótica, o Mecha Deadpool, explode em um espetáculo de caos
+              e destruição. O Mecha Deadpool, criado para ser uma versão mais fria e implacável, é armado com uma
+              tecnologia avançada e possui todas as habilidades de combate de Deadpool, mas sem sua moral questionável e
+              imprevisível senso de humor. A luta é intensa e brutal, com o Mercenário Tagarela utilizando seu arsenal
+              improvisado e sua regeneração para resistir aos golpes letais do meca. No entanto, Deadpool logo percebe
+              que essa não é apenas uma luta de força, mas de inteligência. Enquanto a batalha se intensifica, ambos
+              tentam superar o outro em estratégias malucas, criando uma verdadeira guerra de imprevisibilidade e humor
+              ácido.</p>
+          </div>
+          <div class="col-md-6 mb-4">
+            <img src="banner7.jpg" alt="Deadpool" class="img-fluid rounded">
+          </div>
+        </div>
+
+    </section>
+  </section>
+
+  </div>
+  </section>
+
+
+
+
+
+
+  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="banner8.jpg" class="d-block w-100" alt="Imagem 1">
+          </div>
+          <div class="col-md-6 d-flex align-items-center">
+            <p class="text-center">
+              No auge da batalha, uma verdade chocante vem à tona: o Mecha Deadpool, até então considerado uma cópia
+              robótica sem alma, revela ser, na verdade, Ellie Wilson, filha de Deadpool. Criada como uma versão
+              cibernética para enfrentar o próprio pai, Ellie foi programada para executar a missão impossível de
+              derrotá-lo. No entanto, conforme a luta se desenrola, fragmentos de sua verdadeira identidade começam a
+              emergir, até que a máscara cai e Deadpool se vê diante de sua própria filha. Agora, Deadpool precisa lidar
+              com a dor da revelação, percebendo que a batalha não é apenas contra uma máquina, mas contra sua própria
+              descendente, forçada a seguir um caminho de destruição que ela nunca escolheu. </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="banner9.jpg" class="d-block w-100" alt="Imagem 2">
+          </div>
+          <div class="col-md-6 d-flex align-items-center">
+            <p class="text-center">
+              No meio do confronto, Deadpool, em um raro momento de vulnerabilidade, deixa as armas de lado e começa a
+              chorar, admitindo que não quer viver em um mundo sem sua filha, Ellie. Com lágrimas nos olhos, ele revela
+              que a imortalidade sem ela não tem sentido. Ellie, agora com 95 anos, se aproxima dele e, com ternura, diz
+              que já viveu o suficiente. Ela lembra ao pai que cada momento compartilhado foi um presente, mas que
+              chegou a hora dela partir. Embora carregue a dor da despedida, Deadpool percebe que precisa deixar Ellie
+              seguir seu caminho. No final, o Mercenário Tagarela, conhecido por seu humor e caos, enfrenta o maior
+              desafio de todos: aceitar a perda e seguir em frente.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="banner9.2.jpg" class="d-block w-100" alt="Imagem 2">
+          </div>
+          <div class="col-md-6 d-flex align-items-center">
+            <p class="text-center">
+              Ellie revela seu plano final: uma máquina que gera um buraco negro capaz de destruir completamente tanto
+              ela quanto Deadpool. O buraco negro impediria a regeneração dele, garantindo que ambos seriam aniquilados.
+              Ao ativar a máquina, Ellie e Deadpool se sacrificam, encerrando o ciclo de imortalidade.
+
+              Com o pacto com Mephisto em jogo, a alma do demônio se torna propriedade de Deadpool, que o tortura
+              implacavelmente. Enquanto isso, a Morte perdoa Deadpool, e os dois finalmente podem viver juntos o amor
+              insano que os une, partindo para a eternidade lado a lado.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+      <!-- Adicione mais items de carrossel aqui -->
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  <section id="gallery" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center">Destino de Mephisto </h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <img src="banner10.jpg" alt="Imagem 1" class="img-fluid rounded">
+        </div>
+        <div class="col-md-4 mb-4">
+          <img src="banner11.jpg" alt="Imagem 2" class="img-fluid rounded">
+        </div>
+        <div class="col-md-4 mb-4">
+          <img src="banner12.jpg" alt="Imagem 3" class="img-fluid rounded">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="finais1.jpg" class="d-block w-100" alt="Imagem 1">
+          </div>
+          <div class="col-md-6 d-flex align-items-center">
+            <p class="text-center">
+              Cansado das batalhas épicas e tramas cósmicas, Deadpool decide se aposentar com estilo em Los Angeles. Ele
+              aluga uma mansão em Malibu e organiza a festa "Bunda Lelê", convidando heróis, vilões e até Stan Lee! A
+              festa é um caos divertido, com Wade dançando, fazendo piadas e distribuindo chimichangas.
+
+              Mas, no meio da pista, ele sente algo estranho no peito. "Sério? Um ataque cardíaco?" ele brinca, antes de
+              cair com um sorriso no rosto. Wolverine, no bar, apenas comenta: "Pelo menos você foi com estilo."
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="finais2.jpg" class="d-block w-100" alt="Imagem 2">
+          </div>
+          <div class="col-md-6 d-flex align-items-center">
+            <p class="text-center">
+              Depois de anos de aventuras, Deadpool encontra um novo propósito ao lado da Capitã Marvel. Eles se
+              apaixonam e começam um relacionamento surpreendente. Juntos, eles fazem uma dupla poderosa e formam uma
+              vida juntos, viajando pelo cosmos e desfrutando de momentos de tranquilidade e romance. Deadpool
+              finalmente encontra um equilíbrio entre sua vida de caos e uma vida ao lado de Carol Danvers. Com risadas,
+              amor e algumas loucuras pelo caminho, eles se tornam a dupla mais improvável e encantadora do universo.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="finais2.1.jpg" class="d-block w-100" alt="Imagem 2">
+          </div>
+          <div class="col-md-6 d-flex align-items-center">
+            <p class="text-center">
+              Em uma reviravolta épica, Deadpool não só conquista o coração da Capitã Marvel, mas também se torna o
+              líder dos Vingadores! Ele combina sua irreverência com a liderança e força de Carol Danvers para guiar os
+              heróis mais poderosos da Terra. Com a Capitã Marvel ao seu lado, Deadpool lidera a equipe em batalhas,
+              planeja estratégias e até dá um toque de humor irreverente às reuniões de equipe. Juntos, eles enfrentam
+              ameaças cósmicas e terrenas, enquanto Deadpool navega em sua nova vida como o herói mais inesperado e
+              divertido no comando.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="finais3.jpg" class="d-block w-100" alt="Imagem 2">
+          </div>
+          <div class="col-md-6 d-flex align-items-center">
+            <p class="text-center">
+              Deadpool tenta uma vida normal e arruma um emprego em um escritório, mas rapidamente se torna um pesadelo.
+              Ele enfrenta um trabalho repetitivo e intermináveis horas de escritório, com finais de semana ocupados por
+              tarefas extras. Sua irreverência não é bem-vinda, e ele se sente alienado e frustrado. O que deveria ser
+              uma pausa na vida de caos se transforma em uma prisão de monotonia e desesperança, deixando Deadpool
+              lutando para manter sua sanidade.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="finais4.jpg" class="d-block w-100" alt="Imagem 2">
+          </div>
+          <div class="col-md-6 d-flex align-items-center">
+            <p class="text-center">
+              Deadpool é inesperadamente escolhido para portar o poder da Força Enigma, transformando-se no novo Capitão
+              Universo. Com habilidades cósmicas e um poder quase ilimitado, ele assume o manto de um dos maiores
+              protetores do universo. Em vez de seguir a tradição de heróis sérios e sérios, Deadpool usa seu novo poder
+              com seu estilo irreverente, trazendo um toque de humor e caos para suas novas responsabilidades.
+
+              Como Capitão Universo, ele enfrenta ameaças cósmicas e salva o universo com sua combinação única de força,
+              inteligência e piadas. Ele traz um equilíbrio entre proteger e divertir, tornando-se um herói que combina
+              poder imenso com uma personalidade incomparável. Deadpool se adapta à sua nova posição com entusiasmo e
+              criatividade, mostrando que mesmo com um poder vasto, ele ainda é o mesmo Deadpool que todos conhecem e
+              amam.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="final5.jpg" class="d-block w-100" alt="Imagem 2">
+          </div>
+          <div class="col-md-6 d-flex align-items-center">
+            <p class="text-center">
+              Deadpool se casa com a Morte e decide viver no submundo, mas a vida não é como ele esperava. Em vez de
+              aventuras e emoção, ele se encontra em uma rotina de decadência. No submundo, Deadpool se transforma em um
+              gordo bêbado e preguiçoso. Ele passa seus dias bebendo e se empanturrando de comida enquanto descansa em
+              um trono de ossos. Sua nova vida é marcada pela indulgência e a ausência de qualquer responsabilidade ou
+              emoção. O que parecia ser uma eternidade de descanso se torna uma existência entediante e cheia de
+              arrependimento, com Deadpool lutando para encontrar qualquer significado além da sua vida de excessos e
+              preguiça.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="final6.jpg" class="d-block w-100" alt="Imagem 2">
+          </div>
+          <div class="col-md-6 d-flex align-items-center">
+            <p class="text-center">
+              Deadpool encontra o amor em um lugar inesperado: nos braços do Homem de Gelo dos X-Men. O relacionamento
+              deles começa com uma série de encontros desajeitados e divertidos, mas logo se transforma em uma conexão
+              profunda e verdadeira. Juntos, eles exploram o lado mais suave e romântico da vida, enquanto Deadpool traz
+              seu humor único e suas travessuras para o relacionamento.
+
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="final6.1.jpg" class="d-block w-100" alt="Imagem 2">
+          </div>
+          <div class="col-md-6 d-flex align-items-center">
+            <p class="text-center">
+              Deadpool não só continua seu relacionamento com o Homem de Gelo, mas também se torna o líder dos
+              Vingadores! Ele equilibra sua vida amorosa com suas novas responsabilidades heroicas, liderando a equipe
+              com seu estilo irreverente e suas habilidades únicas. Junto com o Homem de Gelo, ele enfrenta ameaças
+              cósmicas e terrenos, mostrando que pode ser tanto um líder poderoso quanto um parceiro dedicado. Deadpool
+              traz um toque de humor e inovação para a liderança, enquanto continua a cultivar um relacionamento amoroso
+              e sólido com seu companheiro X-Men.
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+      <!-- Adicione mais items de carrossel aqui -->
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+
+
+
+
+
+  <footer class="py-4">
+    <div class="container">
+
+      <div class="row">
+
+        <!-- Footer Content -->
+        <div class="col-md-6">
+          <h5>Sobre o Projeto</h5>
+
+          <p>Depois de tantos anos sendo um fã apaixonado deste incrível personagem, finalmente chegou o momento de
+            celebrar o sucesso de uma maneira especial. Utilizei a aula temática de Deadpool para criar uma homenagem
+            digna ao nosso herói irreverente. Inspirado pelas histórias e elementos das HQs Deadpool: The End, construí
+            uma experiência de ensino única que incorpora as ilustrações e técnicas dessas histórias icônicas.
+
+            Neste projeto, cada detalhe foi pensado para capturar a essência de Deadpool e aprimorar as técnicas de
+            ensino, trazendo um toque autêntico e envolvente à aula. E para finalizar com chave de ouro, deixo vocês com
+            as últimas palavras de Deadpool:</p>
+        </div>
+
+
+        <!-- Video Section -->
+        <div class="col-md-6">
+          <video width="100%" height="auto" controls>
+            <source src="teste .mp4" type="video/mp4">
+            Seu navegador não suporta a tag de vídeo.
+          </video>
+        </div>
+
+
+        <div class="row mt-4">
+          <div class="col-md-12 text-center">
+            <p>&copy; 2024 - Todos os direitos reservados | <a
+                href="https://www.linkedin.com/in/marcos-simoes-ms/">Marcos Simões</a></p>
+          </div>
+        </div>
+      </div>
+  </footer>
+
+
+
+
+
+
+
+</body>
+
+</html>

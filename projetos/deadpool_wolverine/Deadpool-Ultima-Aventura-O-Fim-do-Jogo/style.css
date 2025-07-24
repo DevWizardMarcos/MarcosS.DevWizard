@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #eaeaea; /* Cor de texto clara para um tema dark */
+    background-color: #121212; /* Fundo escuro */
+}
+
+.navbar {
+    background-color: #1e1e1e; /* Fundo escuro da navbar */
+}
+
+
+.nav{
+    --bs-nav-link-color: #F28F16 !important;
+}
+
+
+
+
+
+
+.nav-link:hover {
+    color: #c8102e !important; /* Dourado para destaque no hover */
+}
+
+
+h1,h3,h4,h5{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+h2 .player{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+.player:hover {
+    color: #c8102e !important; /* Dourado para destaque no hover */
+}
+
+
+
+#deadpool-adventure{
+    font-family: "Bebas Neue", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+    color: #73071B;
+
+}
+
+.display-4  {
+   color: #73071B;
+}
+
+.lead  {
+    color: #fff;
+ }
+ 
+
+
+p{
+    font-family: "Comic Neue", cursive;
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+
+
+
+.hero {
+    position: relative; /* Permite o uso do pseudo-elemento */
+    background-image: url('Banner1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+    overflow: hidden; /* Garante que o pseudo-elemento não ultrapasse os limites do header */
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Sobreposição preta com opacidade */
+    filter: grayscale(50%) brightness(70%); /* Filtro aplicado apenas à imagem */
+    z-index: 1; /* Garante que a sobreposição fique atrás do conteúdo */
+}
+
+.hero .container {
+    position: relative;
+    z-index: 2; /* Garante que o conteúdo fique acima da sobreposição */
+    color: #fff; /* Garante a cor do texto no header */
+    text-align: center; /* Centraliza o texto */
+}
+
+
+
+
+
+
+.hero .display-4 {
+    font-weight: bold;
+}
+
+.hero .lead {
+    font-size: 1.25rem;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.bg-light {
+    background-color: #2c2c2c; /* Fundo escuro para seções de fundo claro */
+}
+
+.bg-light img {
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #1e1e1e;
+    color: #eaeaea; 
+}
+
+.btn-primary {
+    background-color: #c8102e; 
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #F28F16; 
+}
+
+img {
+    border-radius: 8px;
+}
+
+.w-100{
+    width: 50% !important;
+}
+
+#gallery {
+    color: #ffff;
+}
+
+#gallery img {
+    height: 400px;
+    width: 700px;
+}
+
+.bg-light {
+    background-color: #531410 !important;
+}
+
+.bg-dark {
+    background-image: url('card4.jpg');
+    background-size: cover; /* Ajusta a imagem para cobrir todo o elemento */
+    background-position: center center; /* Centraliza a imagem no elemento */
+    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    background-attachment: fixed; /* Mantém a imagem fixa ao rolar, opcional */
+    height: 600px; /* Ajuste conforme necessário */
+    width: 100%;
+  }
+  
+
+.primeirasc{
+    background-color: #73071B;
+}
+
+.segundasc{
+    background-color: #F28F16;
+}
+
+.w-100{
+    width: 100% !important;
+}
+
+
+
+.text-center {
+    text-align: center !important;
+  
+
+}
+
+
+
