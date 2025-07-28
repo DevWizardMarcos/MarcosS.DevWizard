@@ -53,14 +53,14 @@ const projetos = [
     link: "https://devwizardmarcos.github.io/Deadpool-Ultima-Aventura-O-Fim-do-Jogo/",
   },
   {
-    titulo: "Projeto H 🎃",
+    titulo: "HalloweenInit 🎃",
     descricao:
       "Site interativo de Halloween. Animações, áudio e efeitos em CSS/JS para engajamento.",
     imagem: "img/porjeto h.png",
     link: "https://devwizardmarcos.github.io/HalloweenInit/",
   },
   {
-    titulo: "Cão e Gato",
+    titulo: "Amigo-Fiel",
     descricao:
       "Site institucional para clínica veterinária. Layout moderno, responsivo e profissional.",
     imagem: "img/Landing Page Completa Pet Shop.png",
