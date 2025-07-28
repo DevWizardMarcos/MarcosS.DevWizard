@@ -57,14 +57,14 @@ const projetos = [
     descricao:
       "Site interativo de Halloween. Animações, áudio e efeitos em CSS/JS para engajamento.",
     imagem: "img/porjeto h.png",
-    link: "https://devwizardmarcos.github.io/Projeto-H/",
+    link: "https://devwizardmarcos.github.io/HalloweenInit/",
   },
   {
     titulo: "Cão e Gato",
     descricao:
       "Site institucional para clínica veterinária. Layout moderno, responsivo e profissional.",
     imagem: "img/Landing Page Completa Pet Shop.png",
-    link: "https://devwizardmarcos.github.io/ProjetoFinalPrataHTMLCSS/",
+    link: "https://devwizardmarcos.github.io/Amigo-Fiel/",
   },
   {
     titulo: "Projetos Python Mini Cursos",
